@@ -1,0 +1,40 @@
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 3.125rem;
+
+    position: relative;
+    width: 100%;
+    top: -5rem;
+
+    .frameContent {
+        display: grid;
+        gap: 3.125rem;
+        padding-left: 6.375rem;
+    }
+
+    .shippingImage {
+        z-index: -1;
+    }
+
+    .backgroundImage {
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        right: 0;
+    }
+
+    .productIdea,
+    .productActions {
+        display: grid;
+        gap: 1.875rem;
+    }
+
+    .productLogo {
+        width: 4rem;
+        height: 3.6875rem;
+    }
+}
+

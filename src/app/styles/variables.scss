@@ -1,0 +1,16 @@
+:root {
+    --scale: 14px;
+    --c-black: #1c1d21;
+}
+
+body {
+    --swiper-pagination-color: #0000ff;
+
+    --swiper-pagination-bullet-size: 0.5rem;
+    --swiper-pagination-bullet-border-radius: 100%;
+}
+
+.swiper-pagination.swiper-pagination-horizontal {
+    line-height: 0;
+}
+

@@ -1,2 +1,10 @@
-# cfl-landing
-CargoFantasyLimited. All coincidences are accidental.
+# CargoFantasyLimited Landing
+
+# Setup
+
+npm ci
+
+npm run build
+
+npm run preview
+

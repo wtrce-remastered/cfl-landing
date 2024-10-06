@@ -1,0 +1,60 @@
+@import "variables";
+@import "fonts";
+
+#root {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: var(--scale);
+}
+
+* {
+    font: {
+        family: "Jost", sans-serif;
+        optical-sizing: auto;
+        weight: 400;
+        style: normal;
+    }
+
+    line-height: 1.1;
+
+    color: var(--c-black);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background: #fff;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+// Elements size scaling
+
+@media screen and (max-width: 9900px) {
+    :root {
+        --scale: 0.7vw;
+    }
+}
+
+@media screen and (max-width: 2700px) {
+    :root {
+        --scale: 14px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    :root {
+        --scale: 2.8vw;
+    }
+}

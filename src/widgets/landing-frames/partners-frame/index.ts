@@ -1,0 +1,2 @@
+export { PartnersFrame } from "./ui"
+
